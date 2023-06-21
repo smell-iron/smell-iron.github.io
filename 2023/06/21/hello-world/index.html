@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Hello World | Hexo</title>
+  <title>Github Pages 搭建总结 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Githu">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="Github Pages 搭建总结">
 <meta property="og:url" content="http://example.com/2023/06/21/hello-world/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Githu">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-06-21T02:05:32.565Z">
-<meta property="article:modified_time" content="2023-06-21T02:05:32.565Z">
+<meta property="article:modified_time" content="2023-06-21T02:45:00.164Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -89,7 +89,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      Hello World
+      Github Pages 搭建总结
     </h1>
   
 
@@ -98,23 +98,28 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Github-Pages-搭建总结"><a href="#Github-Pages-搭建总结" class="headerlink" title="Github Pages 搭建总结"></a>Github Pages 搭建总结</h2><h3 id="博客主题"><a href="#博客主题" class="headerlink" title="博客主题"></a>博客主题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: 博客基于 Hexo 框架进行搭建，搭建和部署起来相对简单，并且也拥有大量的主题可供选择。</p>
+<p>我选择的主题是 Butterfly，因为这个主题不仅相对美观并且有着相当多的可选功能组件，博客既可以简洁也可以炫酷，可拓展性很高，同时主题作者也为这个主题编写了详细的说明文档，方便入门。</p>
+<h3 id="博客页面布局"><a href="#博客页面布局" class="headerlink" title="博客页面布局"></a>博客页面布局</h3><p>博客页面布局主要基于 Butterfly 主题自带的页面布局，因为其自带的页面布局整体比较美观且具备了一些常用的功能。</p>
+<p>具体来说，首页以打字效果呈现出 “每日一言”，博客顶部是网站 Logo、标题和导航栏，下滑页面后可看见博客的文章列表，以及博主卡片、最新文章、最新评论、网站资讯等模块，网页底部则展现了博客使用的框架、主题和建站年份等信息。</p>
+<h3 id="博客功能实现"><a href="#博客功能实现" class="headerlink" title="博客功能实现"></a>博客功能实现</h3><h4 id="搜索功能"><a href="#搜索功能" class="headerlink" title="搜索功能"></a>搜索功能</h4><p>可以根据文章内容搜索相应的文章，根据 Butterfly 官方说明文档基于 Algolia 实现</p>
+<p>时间轴、标签、分类、照片、友链、关于功能<br>Butterfly 主题内置功能页面组件，根据说明文档进行相关配置和部署实现</p>
+<h4 id="评论功能"><a href="#评论功能" class="headerlink" title="评论功能"></a>评论功能</h4><p>根据 Valine 说明文档配置相关的 LeanCloud 应用实现</p>
+<h4 id="在线聊天功能"><a href="#在线聊天功能" class="headerlink" title="在线聊天功能"></a>在线聊天功能</h4><p>根据 tidio 的说明文档配置实现</p>
+<h4 id="文章字数统计功能"><a href="#文章字数统计功能" class="headerlink" title="文章字数统计功能"></a>文章字数统计功能</h4><p>安装 hexo-wordcount，并修改相应的主题配置文件参数实现</p>
+<h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><p>添加新的文章后，无法通过关键字搜索到该文章<br>这是因为添加新文章后没有更新 Alogolia 索引库导致的，要想使新文章可以被搜索到，则在添加文章后要在博客目录下执行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo algolia</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>成功执行后就可以用关键词搜索到这篇文章啦！</p>
+<p>修改页面加载动画后加载动画不显示，顶部出现 Loading<br>在生成部署前先执行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/21/hello-world/" data-id="clj53ov0l0000cguu5uz8dotf" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2023/06/21/hello-world/" data-id="clj543pmy0000youugspc9410" data-title="Github Pages 搭建总结" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -122,6 +127,20 @@
   </div>
   
     
+<nav id="article-nav">
+  
+    <a href="/2023/06/21/a/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          a
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
   
 </article>
 
@@ -155,7 +174,11 @@
       <ul>
         
           <li>
-            <a href="/2023/06/21/hello-world/">Hello World</a>
+            <a href="/2023/06/21/a/">a</a>
+          </li>
+        
+          <li>
+            <a href="/2023/06/21/hello-world/">Github Pages 搭建总结</a>
           </li>
         
       </ul>
